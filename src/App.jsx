@@ -162,8 +162,8 @@ const AssetLineChart = ({ currentPrice, ticker }) => {
               key={r}
               onClick={() => setRange(r)}
               className={`px-2 py-1 text-[10px] font-medium transition-colors ${range === r
-                  ? 'bg-gray-800 text-white'
-                  : 'text-gray-500 hover:text-gray-300 hover:bg-gray-900'
+                ? 'bg-gray-800 text-white'
+                : 'text-gray-500 hover:text-gray-300 hover:bg-gray-900'
                 }`}
             >
               {r}
